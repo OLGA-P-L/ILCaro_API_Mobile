@@ -10,6 +10,8 @@ public interface Base_Api {
     String REG_URL = "/v1/user/registration/usernamepassword";
     String LOG_URL = "/v1/user/login/usernamepassword";
     String ADD_NEW_CAR = "/v1/cars";
+    String GET_USER_CARS_URL = "/v1/cars/my";
+    String DELETE_CARS_URL = "/v1/cars/";
 
 
 
