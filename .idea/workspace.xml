@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="118f814b-ee10-486e-a929-b2f904cca037" name="Changes" comment="Registration tests and AddNewCar tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CarsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_tests/okhttptests/DeleteCarByIdOkHttp.java" afterDir="false" />
+    <list default="true" id="118f814b-ee10-486e-a929-b2f904cca037" name="Changes" comment="Added DeleteCarByIdOkHttp class">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Base_Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,27 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AddNewCarTestsOkHttp.addNewCarPositiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AddNewCarTestsOkHttp.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest_WrongToken.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DeleteCarByIdOkHttp.deleteCarByIdPositiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RegistrationTestsOkHttp.registrationNegativeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RegistrationTestsOkHttp.registrationPositiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ILCaro_API_Mobile/src/main/java/dto&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AddNewCarTestsOkHttp.addNewCarPositiveTest.executor": "Run",
+    "Gradle.AddNewCarTestsOkHttp.executor": "Run",
+    "Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest.executor": "Run",
+    "Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest_WrongToken.executor": "Run",
+    "Gradle.DeleteCarByIdOkHttp.deleteCarByIdPositiveTest.executor": "Run",
+    "Gradle.ILCaro_API_Mobile [qa].executor": "Run",
+    "Gradle.RegistrationTestsOkHttp.registrationNegativeTest.executor": "Run",
+    "Gradle.RegistrationTestsOkHttp.registrationPositiveTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/ILCaro_API_Mobile/src/main/java/dto"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ILCaro_API_Mobile\src\main\java\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AddNewCarTestsOkHttp">
+  <component name="RunManager" selected="Gradle.ILCaro_API_Mobile [qa]">
     <configuration name="AddNewCarTestsOkHttp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -90,30 +90,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;api_tests.okhttptests.AddNewCarTestsOkHttp&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddNewCarTestsOkHttp.addNewCarPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;api_tests.okhttptests.AddNewCarTestsOkHttp.addNewCarPositiveTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,13 +172,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ILCaro_API_Mobile [qa]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="qa" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AddNewCarTestsOkHttp" />
-        <item itemvalue="Gradle.DeleteCarByIdOkHttp.deleteCarByIdPositiveTest" />
+        <item itemvalue="Gradle.ILCaro_API_Mobile [qa]" />
         <item itemvalue="Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest_WrongToken" />
+        <item itemvalue="Gradle.DeleteCarByIdOkHttp.deleteCarByIdPositiveTest" />
+        <item itemvalue="Gradle.AddNewCarTestsOkHttp" />
         <item itemvalue="Gradle.DeleteCarByIdOkHttp.deleteCarByIdNegativeTest" />
-        <item itemvalue="Gradle.AddNewCarTestsOkHttp.addNewCarPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,11 +221,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730316212867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added DeleteCarByIdOkHttp class">
+      <option name="closed" value="true" />
+      <created>1731161836333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731161836333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Registration tests and AddNewCar tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration tests and AddNewCar tests" />
+    <MESSAGE value="Added DeleteCarByIdOkHttp class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DeleteCarByIdOkHttp class" />
   </component>
 </project>
